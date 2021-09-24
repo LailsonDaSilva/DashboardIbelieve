@@ -4,23 +4,19 @@
 ```bash
 
     # Clonar o repositório
-    $ git clone https://github.com/LailsonDaSilva/BackendIbelieve.git
+    $ git clone https://github.com/LailsonDaSilva/DashboardIbelieve.git
 
     # Entrar no diretório
-    $ cd BackendIbelieve
+    $ cd DashboardIbelieve
 
     # Instalar as dependências
     $ npm install
 
     # Iniciar o projeto
-    $ npm run dev
+    $ npm start
 
 ```
 
 ### :alien: Autor
 ---
-Desenvolvido ❤️ por Lailson da Silva
-
-Entre em contato
-
-[![Gmail Badge](https://img.shields.io/badge/-lailsonkazumi@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:lailsonkazumi@gmail.com)](mailto:lailsonkazumi@gmail.com)
+ por Lailson da Silva
