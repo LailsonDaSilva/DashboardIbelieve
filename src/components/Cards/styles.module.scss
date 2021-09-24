@@ -1,0 +1,67 @@
+/* Card-dashboards ===================== */
+.card_dashboard {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+    border-radius: 0.25rem;
+    height:100px;
+    margin-bottom: 2rem;
+
+    color: var(--dark-blue);
+}
+
+
+.card_dashboard h3 {
+    font-weight: normal;
+    font-size: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card_dashboard p {
+    font-size: 2rem;
+    line-height: 3rem;
+    white-space:nowrap;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+.card_dashboard img {
+    width: 3rem;
+    border-radius: 50%;
+    padding: 5px;
+}
+.driver_car{
+    background: #FFF0E6;
+}
+.passenger_travel{
+    background: #ECEBFE;
+}
+.travel{
+    background: #E6F7FF;
+}
+.card_dashboard.total {
+    background: var(--blue);
+    color: #fff;
+    span{
+        color: #fff;
+    }
+}
+/* Balance ===================== */
+
+.Cards_dashboard h2 {
+    color:white;
+    margin-top:0;
+}
+/* Responsive ===================== */
+
+    .Cards_dashboard{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(265px, 1fr)); /* Where the magic happens */
+    grid-auto-rows: 94px;
+    grid-gap: 20px;
+    margin: 20px;
+    }

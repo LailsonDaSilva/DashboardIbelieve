@@ -1,0 +1,120 @@
+
+main.Page_Singnin {
+    /*===== Page position  =====*/
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      min-width: 100%;
+      min-height: 100vh;
+   .Singnin_Content{
+       position: relative;
+        width: 390px;
+       padding: 15px;
+      z-index: 5;
+   }
+   .auth_icon {
+    width: 4rem;
+  }
+  .input_group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+    margin-bottom: 1rem;
+
+    & label{
+      color: #111;
+      font-weight: 600;
+      font-size: 0.8rem;
+      margin-bottom: 8px;
+    }
+  
+    & input{
+      background: var(--white);
+      padding: 10px 20px;
+      font-size: 14px;
+      display: block;
+      width: 100%;
+      font-size: 1rem;
+      line-height: 1.5;
+     background-clip: padding-box;
+      border: 1px solid #ced4da;
+      border-radius: .25rem;
+      transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+    & input:focus { 
+        outline: none !important;
+        border-color: var(--yellow);
+    }
+  }
+      h3{
+        margin-bottom: 1.5rem;
+        color: #111;
+        font-weight: 600;
+      }
+  
+      p > a {
+        color: #111;
+        font-weight: 600;
+      }
+      .card {
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .Btn_Singnin {
+      color: rgb(0, 0, 0);
+      background: var(--yellow);
+      
+      width: 100%;
+      margin-bottom: 1.5rem;
+      margin-top: 1rem;
+      margin-right: 10px;
+      padding: .475rem .75rem;
+      font-size: 0.8rem;
+      line-height: 1.5;
+      font-weight: 600;
+  
+      border: 1px solid transparent;
+      box-shadow: 1px 20px 30px rgba(80, 81, 82, 0.15);
+      transition: all 0.3s ease-in-out;
+  }
+  p.text_muted {
+    color: #6c757d;
+    font-size: 0.9rem;
+    margin-bottom: .5rem;
+  }
+    }
+  
+    @media only screen and (max-width: 768px) {
+      .Page_Singnin {
+        max-width: 360px;
+      }
+    }
+    @media only screen and (max-width: 575px) {
+      .Page_Singnin .card .card_body {
+        padding: 30px 15px;
+      }
+    }
+
+
+
+/*===== card content  =====*/
+
+.card {
+    border-radius: 0;
+    box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+    border: none;
+    transition: all 0.5s ease-in-out;
+    background-color: var(--white);
+    border-radius: .25rem;
+    word-wrap: break-word;
+    padding: 30px 30px;  
+  }
+
+.card-body {  
+    flex: 1 1 auto;
+   padding: 1.25rem;
+  }
